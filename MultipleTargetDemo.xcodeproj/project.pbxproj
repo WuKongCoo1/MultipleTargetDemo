@@ -15,6 +15,12 @@
 		6711DF2B1CFC192700131CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6711DF291CFC192700131CAF /* LaunchScreen.storyboard */; };
 		6711DF361CFC192700131CAF /* MultipleTargetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6711DF351CFC192700131CAF /* MultipleTargetDemoTests.m */; };
 		6711DF411CFC192700131CAF /* MultipleTargetDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6711DF401CFC192700131CAF /* MultipleTargetDemoUITests.m */; };
+		6711DF501CFC197400131CAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6711DF221CFC192700131CAF /* ViewController.m */; };
+		6711DF511CFC197400131CAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6711DF1F1CFC192700131CAF /* AppDelegate.m */; };
+		6711DF521CFC197400131CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6711DF1C1CFC192700131CAF /* main.m */; };
+		6711DF551CFC197400131CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6711DF291CFC192700131CAF /* LaunchScreen.storyboard */; };
+		6711DF561CFC197400131CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6711DF271CFC192700131CAF /* Assets.xcassets */; };
+		6711DF571CFC197400131CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6711DF241CFC192700131CAF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,8 @@
 		6711DF3C1CFC192700131CAF /* MultipleTargetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleTargetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6711DF401CFC192700131CAF /* MultipleTargetDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleTargetDemoUITests.m; sourceTree = "<group>"; };
 		6711DF421CFC192700131CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6711DF5B1CFC197400131CAF /* SecondTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6711DF5C1CFC197400131CAF /* SecondTarget.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SecondTarget.plist; path = /Users/wukong/Documents/MyCodeSource/Demo/MultipleTargetDemo/SecondTarget.plist; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6711DF531CFC197400131CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +100,7 @@
 				6711DF341CFC192700131CAF /* MultipleTargetDemoTests */,
 				6711DF3F1CFC192700131CAF /* MultipleTargetDemoUITests */,
 				6711DF191CFC192700131CAF /* Products */,
+				6711DF5C1CFC197400131CAF /* SecondTarget.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +110,7 @@
 				6711DF181CFC192700131CAF /* MultipleTargetDemo.app */,
 				6711DF311CFC192700131CAF /* MultipleTargetDemoTests.xctest */,
 				6711DF3C1CFC192700131CAF /* MultipleTargetDemoUITests.xctest */,
+				6711DF5B1CFC197400131CAF /* SecondTarget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +213,23 @@
 			productReference = 6711DF3C1CFC192700131CAF /* MultipleTargetDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6711DF4E1CFC197400131CAF /* SecondTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6711DF581CFC197400131CAF /* Build configuration list for PBXNativeTarget "SecondTarget" */;
+			buildPhases = (
+				6711DF4F1CFC197400131CAF /* Sources */,
+				6711DF531CFC197400131CAF /* Frameworks */,
+				6711DF541CFC197400131CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondTarget;
+			productName = MultipleTargetDemo;
+			productReference = 6711DF5B1CFC197400131CAF /* SecondTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,6 +268,7 @@
 				6711DF171CFC192600131CAF /* MultipleTargetDemo */,
 				6711DF301CFC192700131CAF /* MultipleTargetDemoTests */,
 				6711DF3B1CFC192700131CAF /* MultipleTargetDemoUITests */,
+				6711DF4E1CFC197400131CAF /* SecondTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +298,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6711DF541CFC197400131CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6711DF551CFC197400131CAF /* LaunchScreen.storyboard in Resources */,
+				6711DF561CFC197400131CAF /* Assets.xcassets in Resources */,
+				6711DF571CFC197400131CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -289,6 +334,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6711DF411CFC192700131CAF /* MultipleTargetDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6711DF4F1CFC197400131CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6711DF501CFC197400131CAF /* ViewController.m in Sources */,
+				6711DF511CFC197400131CAF /* AppDelegate.m in Sources */,
+				6711DF521CFC197400131CAF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultipleTargetDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DFIRST_TARGET=1";
 				PRODUCT_BUNDLE_IDENTIFIER = myCompany.MultipleTargetDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -428,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultipleTargetDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DFIRST_TARGET=1";
 				PRODUCT_BUNDLE_IDENTIFIER = myCompany.MultipleTargetDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -479,6 +536,34 @@
 			};
 			name = Release;
 		};
+		6711DF591CFC197400131CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"IMAGEADDRESS=@\\\"Preprocessing\\\"",
+				);
+				INFOPLIST_FILE = SecondTarget.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DSECOND_TARGET=1";
+				PRODUCT_BUNDLE_IDENTIFIER = myCompany.MultipleTargetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6711DF5A1CFC197400131CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecondTarget.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DSECOND_TARGET=1";
+				PRODUCT_BUNDLE_IDENTIFIER = myCompany.MultipleTargetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,6 +583,7 @@
 				6711DF471CFC192700131CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6711DF481CFC192700131CAF /* Build configuration list for PBXNativeTarget "MultipleTargetDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +592,7 @@
 				6711DF4A1CFC192700131CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6711DF4B1CFC192700131CAF /* Build configuration list for PBXNativeTarget "MultipleTargetDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +601,16 @@
 				6711DF4D1CFC192700131CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6711DF581CFC197400131CAF /* Build configuration list for PBXNativeTarget "SecondTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6711DF591CFC197400131CAF /* Debug */,
+				6711DF5A1CFC197400131CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

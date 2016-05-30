@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SecondTarget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>6711DF3B1CFC192700131CAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6711DF4E1CFC197400131CAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

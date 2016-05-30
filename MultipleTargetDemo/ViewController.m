@@ -8,6 +8,16 @@
 
 #import "ViewController.h"
 
+#if SECOND_TARGET
+static NSString *const TARGET_NAME = @"SECOND_TARGET";
+
+#elif FIRST_TARGET
+
+static NSString *const TARGET_NAME = @"FIRST_TARGET";
+
+#endif
+
+
 @interface ViewController ()
 
 @end
@@ -16,7 +26,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@", TARGET_NAME);
 }
 
 - (void)didReceiveMemoryWarning {
